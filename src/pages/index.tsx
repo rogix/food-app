@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import { FavoriteSection } from "../components/Favorite";
 import { Header } from "../components/Header";
 import { MainContent } from "../components/MainContent";
+import { UnitiesSection } from "../components/Unities";
 
 const Home: NextPage = () => {
   return (
@@ -13,6 +14,7 @@ const Home: NextPage = () => {
       <section className="bg-white">
         <FavoriteSection />
       </section>
+      <UnitiesSection />
     </main>
   );
 };
