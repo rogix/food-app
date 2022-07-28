@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import { FavoriteSection } from "../components/Favorite";
+import { Footer } from "../components/Footer";
 import { FiliadoSection } from "../components/Franquia";
 import { Header } from "../components/Header";
 import { MainContent } from "../components/MainContent";
@@ -21,6 +22,7 @@ const Home: NextPage = () => {
       <MapSection />
       <Menus />
       <FiliadoSection />
+      <Footer />
     </main>
   );
 };
