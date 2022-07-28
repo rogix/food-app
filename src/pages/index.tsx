@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import { FavoriteSection } from "../components/Favorite";
 import { Header } from "../components/Header";
 import { MainContent } from "../components/MainContent";
+import { MapSection } from "../components/Map";
 import { UnitiesSection } from "../components/Unities";
 
 const Home: NextPage = () => {
@@ -15,6 +16,7 @@ const Home: NextPage = () => {
         <FavoriteSection />
       </section>
       <UnitiesSection />
+      <MapSection />
     </main>
   );
 };
