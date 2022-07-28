@@ -3,6 +3,7 @@ import { FavoriteSection } from "../components/Favorite";
 import { Header } from "../components/Header";
 import { MainContent } from "../components/MainContent";
 import { MapSection } from "../components/Map";
+import { Menus } from "../components/Menus";
 import { UnitiesSection } from "../components/Unities";
 
 const Home: NextPage = () => {
@@ -17,6 +18,7 @@ const Home: NextPage = () => {
       </section>
       <UnitiesSection />
       <MapSection />
+      <Menus />
     </main>
   );
 };
